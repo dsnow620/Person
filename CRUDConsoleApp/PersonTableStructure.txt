@@ -1,0 +1,15 @@
+CREATE TABLE "Person" (
+	"PersonID"	INTEGER,
+	"FirstName"	TEXT NOT NULL,
+	"LastName"	TEXT NOT NULL,
+	"Email"	TEXT NOT NULL,
+	"PhoneNumber"	TEXT NOT NULL,
+	PRIMARY KEY("PersonID" AUTOINCREMENT)
+)
+
+
+insert into Person 
+values(NULL, 'Amy', 'Smith', 'asmith@google.com', '939-382-7262'),
+(NULL, 'John', 'Thomas', 'jthomas@google.com', '939-482-7262'),
+(NULL, 'Mike', 'Williams', 'mwilliams@google.com', '939-582-7262'),
+(NULL, 'Ashley', 'Scott', 'ascott@google.com', '939-682-7262')
